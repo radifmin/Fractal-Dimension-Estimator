@@ -14,7 +14,7 @@ The main components of the project:
 
     ```bash
     git clone https://github.com/radifmin/Fractal-Dimension-Estimator.git
-    cd
+    cd Fractal-Dimension-Estimator
     ```
 
 2. **Install the requirements:**
@@ -34,7 +34,7 @@ The main components of the project:
 To train model from scratch, run the following command:
 
 ```bash
-python src/train.py --num_samples_train 128 --num_samples_val 16 --fractal_depth 7 --epochs 50 --learning_rate 0.001 --batch_size 32 --patience 5
+python src/train.py --num_samples_train 128 --num_samples_val 16 --fractal_depth 7 --epochs 100 --learning_rate 0.001 --batch_size 32 --patience 5
 ```
 
 Args:
