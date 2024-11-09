@@ -1,0 +1,17 @@
+*.pyc
+*.pyo
+*.cpython-*
+
+Fractal_Dimension_Estimator.egg-info
+
+venv/
+env/
+
+.vscode/
+.idea/
+
+*.log
+*.tmp
+__pycache__/
+
+FD_estimator_checkpoint.pth
